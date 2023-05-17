@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,body {
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 400;
+}
+#search:focus-within {
+    box-shadow: 0 2px 120px rgba(0,0,0,0.1);
+}
