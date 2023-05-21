@@ -9,3 +9,9 @@ html,body {
 #search:focus-within {
     box-shadow: 0 2px 120px rgba(0,0,0,0.1);
 }
+.list-none li {
+    @apply mt-[19px]
+}
+.list-none.second-list li {
+    @apply leading-[17px] text-[#18283E]
+}
