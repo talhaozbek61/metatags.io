@@ -1,7 +1,5 @@
-import { useState } from "react";
 import logo from "../logo.svg"
-const Navbar = () => {
-    const [search, setSearch] = useState("https://metatags.io")
+const Navbar = ({search, setSearch}) => {
     return ( 
         <nav className="border-b min-[770px]:h-[92px] h-16 border-[#C7D3D9] flex items-center justify-between px-6">
             <div className="flex items-center">
