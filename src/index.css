@@ -13,6 +13,18 @@ html,body {
 .list-none li {
     @apply mt-[19px]
 }
+.list-none li a {
+    @apply relative
+}
+.list-none li a span{
+    @apply text-[#A3B3CA]
+}
+.list-none li a span svg{
+    @apply text-[#C7D3D9]
+}
+.list-none li a .active, .list-none li a .active svg {
+    @apply text-white
+}
 .list-none.second-list li {
     @apply leading-[17px] text-[#18283E]
 }

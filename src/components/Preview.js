@@ -21,7 +21,7 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
             </div>
             <div className="mobile-shadow-google max-[769px]:px-3 max-[769px]:py-3 rounded-md">
             <div className="card-google">
-                <h1 className="text-[#1a0dab] min-[770px]:text-lg text-sm leading-5"> {title} </h1>
+                <h1 className="text-[#1a0dab] min-[770px]:text-lg text-sm !leading-5 hover:underline cursor-pointer"> {title} </h1>
             </div>
             <div className="card-google-url text-[#006621] flex items-center">
                 <h1 className="text-sm mr-2"> {search}/</h1>
@@ -41,7 +41,7 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
                 <h1 className="mr-3">Facebook</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
             </div>
-            <div className="card-facebook mt-[13px] min-[770px]:w-[500px]">
+            <div className="card-facebook mt-[13px] min-[770px]:w-[500px] cursor-pointer">
                 <div className="card-facebook-image min-[770px]:h-[261px] min-[770px]:w-[500px] h-[180px] border border-gray-300"></div>
                 <div className="border-x border-b border-gray-300 px-3 py-[10px] bg-[#f2f3f5] text-[#606770] text-[12px] leading-3">
                     <span>{search.slice(8).toUpperCase()}</span>
@@ -56,11 +56,11 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
                 <h1 className="mr-3">Twitter</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
             </div>
-            <div className="card-twitter mt-[13px] min-[770px]:w-[504px] max-[669px]:flex max-[669px]:justify-between">
+            <div className="card-twitter mt-[13px] min-[770px]:w-[504px] max-[669px]:flex max-[669px]:justify-between cursor-pointer group">
                 <div className="w-10 h-10 bg-[#EBF1FA] rounded-full shrink-0 mr-1 min-[770px]:hidden"></div>
                 <div className="w-full">
-                <div className="card-twitter-image min-[770px]:h-[252px] min-[770px]:w-[504px] h-[150px] w-full border border-gray-200 rounded-t-lg"></div>
-                <div className="border-x border-b border-gray-200 px-[14px] py-2 text-[#606770] text-[12px] leading-3 rounded-b-lg">
+                <div className="card-twitter-image min-[770px]:h-[252px] min-[770px]:w-[504px] h-[150px] w-full border border-gray-200 rounded-t-lg group-hover:border-gray-300 duration-300"></div>
+                <div className="border-x border-b border-gray-200 px-[14px] py-2 text-[#606770] text-[12px] leading-3 rounded-b-lg group-hover:border-gray-300 duration-300">
                     <p className="text-sm mt-1 text-[#1d2129] min-[770px]:font-bold leading-[1.3em]"> {title} </p>
                     <p className="text-sm leading-[18px] mt-1 mb-1 text-black hidden min-[770px]:block"> {description} </p>
                     <span className="text-sm text-[#8899A6]">{search.slice(8)}</span>
@@ -69,12 +69,12 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
             </div>
             </div>
             {/* Linkedin */}
-            <div id="linkedin" className="">
+            <div id="linkedin" className="hidden">
             <div className="mt-[23px] flex text-sm text-[#A3B3CA] tracking-[0.015em] items-center">
                 <h1 className="mr-3">Linkedin</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
             </div>
-            <div className="card-linkedin mt-[13px] min-[770px]:w-[552px]">
+            <div className="card-linkedin mt-[13px] min-[770px]:w-[552px] cursor-pointer">
                 <div className="card-linkedin-image min-[770px]:h-[288px] min-[770px]:w-[552px] h-[288px] border border-gray-300"></div>
                 <div className="border-x border-b border-gray-300 px-4 py-1 bg-[#f2f3f5] text-[#606770] text-[12px] leading-3">
                     <p className="text-sm mt-1 text-[#1d2129] font-semibold leading-5"> {title} </p>
@@ -83,7 +83,7 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
             </div>
             </div>
             {/* Pinterest */}
-            <div id="pinterest" className="">
+            <div id="pinterest" className="hidden">
             <div className="mt-[23px] flex text-sm text-[#A3B3CA] tracking-[0.015em] items-center">
                 <h1 className="mr-3">Pinterest</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
@@ -101,7 +101,7 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
             </div>
             </div>
             {/* Slack */}
-            <div id="slack" className="">
+            <div id="slack" className="hidden">
             <div className="mt-[23px] flex text-sm text-[#A3B3CA] tracking-[0.015em] items-center">
                 <h1 className="mr-3">Slack</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
