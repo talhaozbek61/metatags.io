@@ -1,7 +1,7 @@
 import MetaTagsImage from "../assets/meta-tags.png"
 const MetaData = ({title, setTitle, description, setDescription}) => {
         return ( 
-            <div className="px-6 py-3 mt-[22px]" id="metaData">
+            <div className="min-[770px]:px-6 px-5 py-3 mt-[22px]" id="metaData">
                 <h1 className="text-[11px] font-bold tracking-[0.1em] uppercase">MetaData</h1>
                 <div className="flex items-center justify-between mt-[30px] mb-[6px] tracking-[0.015em] font-medium">
                     <h2 className="inline-block flex-initial text-[#A3B3CA] text-sm">Image</h2>
@@ -35,11 +35,11 @@ const MetaData = ({title, setTitle, description, setDescription}) => {
                 <textarea name="title" id="title" rows="2" className="w-full bg-[#EBF1FA] resize-none focus:outline-none px-4 py-2 rounded-md tracking-[0.02em] leading-[1.4]" value={title} onChange={e => setTitle(e.target.value)}></textarea>
                 
                 {/* Description */}
-                <div className="flex items-center justify-between mt-4 mb-[6px] tracking-[0.015em] font-medium">
+                <div className="flex items-center justify-between mt-3 mb-[6px] tracking-[0.015em] font-medium">
                     <h2 className="inline-block flex-initial text-[#A3B3CA] text-sm">Description</h2>
                     <h3 className="inline-block flex-inital text-[#A3B3CA] text-[11px] mt-[3px]">{description.length}</h3>
                 </div>
-                <textarea name="title" id="title" rows="5" className="w-full bg-[#EBF1FA] resize-none focus:outline-none px-4 py-2 rounded-md tracking-[0.02em] leading-[1.4]" value={description} onChange={e => setDescription(e.target.value)}></textarea>
+                <textarea name="title" id="title" rows="5" className="w-full bg-[#EBF1FA] resize-none focus:outline-none px-4 py-2 rounded-md tracking-[0.02em] leading-[1.4] mb-[9px]" value={description} onChange={e => setDescription(e.target.value)}></textarea>
             </div>
          );
     }

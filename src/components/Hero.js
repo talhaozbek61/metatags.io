@@ -11,10 +11,10 @@ const Hero = ({search, setSearch}) => {
             <div className="hidden min-[1200px]:block border-r border-b border-gray-300 min-[1360px]:w-[260px] w-60">
                 <Channels/>
             </div>
-            <div className="border-r border-b border-gray-300 min-[770px]:w-[400px] w-[360px]">
+            <div className="border-r border-b border-gray-300 min-[770px]:w-[400px] w-full">
                 <MetaData title={title} setTitle={setTitle} description={description} setDescription={setDescription} />
             </div>
-            <div className="w-[688px] border-b">
+            <div className="min-[770px]:w-[688px] w-full border-b">
                 <Preview title={title} setTitle={setTitle} description={description} setDescription={setDescription} search={search} setSearch={setSearch} />
             </div>
         </div>
