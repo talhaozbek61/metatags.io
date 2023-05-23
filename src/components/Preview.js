@@ -14,7 +14,7 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
             </button>
             </div>
             {/* Google */}
-            <div id="google" className="">
+            <div id="google" className="active">
             <div className="mt-[23px] flex text-sm text-[#A3B3CA] tracking-[0.015em] items-center max-[770px]:mb-[13px]">
                 <h1 className="mr-3">Google</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
@@ -36,7 +36,7 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
             </div>
             </div>
             {/* Facebook */}
-            <div id="facebook" className="">
+            <div id="facebook" className="active">
             <div className="mt-[23px] flex text-sm text-[#A3B3CA] tracking-[0.015em] items-center">
                 <h1 className="mr-3">Facebook</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
@@ -51,7 +51,7 @@ const Preview = ({title, setTitle, description, setDescription, search}) => {
             </div>
             </div>
             {/* Twitter */}
-            <div id="twitter" className="">
+            <div id="twitter" className="active">
             <div className="mt-[23px] flex text-sm text-[#A3B3CA] tracking-[0.015em] items-center">
                 <h1 className="mr-3">Twitter</h1>
                 <span className="w-full h-[1px] bg-slate-200"></span>
