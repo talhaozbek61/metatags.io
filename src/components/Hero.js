@@ -12,7 +12,7 @@ const Hero = ({search, setSearch, title, setTitle, description, setDescription})
                 <MetaData title={title} setTitle={setTitle} description={description} setDescription={setDescription} />
             </div>
             <div className="min-[770px]:w-[688px] w-full border-b">
-                <Preview title={title} setTitle={setTitle} description={description} setDescription={setDescription} search={search} setSearch={setSearch} />
+                <Preview title={title} description={description} search={search} />
             </div>
         </div>
      );

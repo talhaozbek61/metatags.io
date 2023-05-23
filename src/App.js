@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import Section from "./components/Section";
 import Article from "./components/Article";
+import Footer from "./components/Footer";
 function App() {
   const [search, setSearch] = useState("https://metatags.io")
   const [title, setTitle]             = useState("Meta Tags — Preview, Edit and Generate")
@@ -13,6 +14,7 @@ function App() {
     <Hero search={search} setSearch={setSearch} title={title} setTitle={setTitle} description={description} setDescription={setDescription} />
     <Section />
     <Article title={title} description={description} search={search} />
+    <Footer />
     </>
   );
 }

@@ -69,3 +69,6 @@ html,body {
 #article .article-title, #article .article-content {
     @apply min-[770px]:pt-20 min-[770px]:px-0 min-[770px]:pb-8
 }
+footer {
+    @apply min-[770px]:pt-[88px] min-[770px]:px-7 min-[770px]:pb-[156px] py-14 px-4
+}

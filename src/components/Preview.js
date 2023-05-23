@@ -1,5 +1,5 @@
 import favicon from "../assets/favicon.png"
-const Preview = ({title, setTitle, description, setDescription, search}) => {
+const Preview = ({title, description, search}) => {
     return ( 
         <div className="min-[770px]:px-10 px-5 py-6 min-[770px]:py-2 mt-[22px] min-[770px]:mt-[18px]" id="Preview">
             <div className="flex items-center justify-between mx-auto">

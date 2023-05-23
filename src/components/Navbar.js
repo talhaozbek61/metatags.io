@@ -2,7 +2,7 @@ import logo from "../logo.svg"
 const Navbar = ({search, setSearch}) => {
     return ( 
         <nav className="border-b min-[770px]:h-[92px] h-16 border-[#C7D3D9] flex items-center justify-between px-6">
-            <div className="flex items-center">
+            <div className="flex items-center text-[#18283E]">
                 <img src={logo} alt="Logo" />
                 <a href="/" className="pl-4 text-lg font-bold -mt-[2px] hidden min-[641px]:inline">
                 Meta Tags
