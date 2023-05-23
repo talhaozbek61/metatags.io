@@ -48,7 +48,7 @@ html,body {
 .card-facebook {
     font-family: Helvetica, Arial, sans-serif;
 }
-.card-facebook-image, .card-twitter-image, .card-linkedin-image, .card-pinterest-image, .card-slack-image {
+.card-facebook-image, .card-twitter-image, .card-linkedin-image, .card-pinterest-image, .card-slack-image .figure-image {
     background-image: url("assets/meta-tags.png"); background-size: cover; background-position: center; background-repeat: no-repeat;
 }
 .card-twitter, .card-linkedin, .card-pinterest {
@@ -56,4 +56,16 @@ html,body {
 }
 .card-slack{
     font-family: 'Noto Sans JP', sans-serif;
+}
+#article .article-title {
+    @apply max-[769px]:pt-12 max-[769px]:px-5 max-[769px]:pb-4
+}
+#article .article-title h1 {
+    @apply min-[770px]:w-[260px]
+}
+#article .article-content {
+    @apply max-[769px]:pt-0 max-[769px]:px-5 max-[769px]:pb-8
+}
+#article .article-title, #article .article-content {
+    @apply min-[770px]:pt-20 min-[770px]:px-0 min-[770px]:pb-8
 }

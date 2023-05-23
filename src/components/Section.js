@@ -6,7 +6,7 @@ const Section = () => {
             
             <img src={logo} alt="Logo" className="text-center inline-block" />
             <h1 className="text-2xl text-white mt-[30px] mb-2">Meta Tags</h1>
-            <p className="text-base min-[770px]:text-2xl opacity-60 text-white max-w-[900px] mx-auto leading-[1.6]">Meta Tags is a tool to debug and generate meta tag code for any website. With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!</p>
+            <p className="text-lg min-[770px]:text-2xl opacity-60 text-white max-w-[900px] mx-auto leading-[1.6]">Meta Tags is a tool to debug and generate meta tag code for any website. With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!</p>
             </div>
         </section>
      );
