@@ -48,7 +48,7 @@ html,body {
 .card-facebook {
     font-family: Helvetica, Arial, sans-serif;
 }
-.card-facebook-image, .card-twitter-image, .card-linkedin-image, .card-pinterest-image, .card-slack-image .figure-image {
+.card-facebook-image, .card-twitter-image, .card-linkedin-image, .card-pinterest-image, .card-slack-image {
     background-image: url("assets/meta-tags.png"); background-size: cover; background-position: center; background-repeat: no-repeat;
 }
 .card-twitter, .card-linkedin, .card-pinterest {
