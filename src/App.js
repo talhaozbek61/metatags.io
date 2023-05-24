@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Navbar search={search} setSearch={setSearch}  />
-    <Hero search={search} setSearch={setSearch} title={title} setTitle={setTitle} description={description} setDescription={setDescription} />
+    <Hero search={search} title={title} setTitle={setTitle} description={description} setDescription={setDescription} />
     <Section />
     <Article title={title} description={description} search={search} />
     <Footer />
